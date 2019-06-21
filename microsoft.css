@@ -1,0 +1,313 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: #e2e2e2;
+	width: 100%;
+	height: 100px;
+	margin-top: -20px;
+}
+#microsoft{
+	width: 100%;
+	height: 100px;
+	margin: 20px;
+}
+
+.mic img{
+	width: 600px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	
+}
+#bar{
+	float: right;
+	width: 900px;
+
+	margin-right: 40px;
+}
+#bar .menu{
+	list-style: none;
+}
+.menu,.about{
+	
+	font-size: 40%;
+	font-family: arial;
+}
+
+.about a{
+	color: blue;
+	float: left;
+	padding: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.about a:hover{
+	color: green;
+}
+.drosh{
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#block{
+	width:100%;
+	border: 1px solid #fff;
+	height: 500px;
+}
+.container1,.web{
+	margin-right: 10px;
+	width: 600px;
+	height: 500px;
+	float: left;
+	
+}
+	
+.container{
+	float: right;
+	width: 600px;
+	height: 500px;
+
+}
+.text{
+	font-size: 50px;
+    color: blue;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+p{
+	font-family: arial;
+	font-size: 30px;
+	text-indent: 10px;
+	text-align: justify;
+	margin-right: 40px;
+	line-height: 35px;
+	
+}
+button{
+	margin-left: 100px;
+	width: 100px;
+	height: 50px;
+}
+button a{
+	width: 150px;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 0 auto;
+	font-size: 20px;
+	text-decoration: none;
+}
+h1{
+	font-family: sens serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 45px;
+	
+}
+#news{
+	width:100%;
+	border: 1px solid grey;
+	height: 400px;
+}
+.annount{
+	margin-right: 10px;
+	width: 30%;
+	height: 400px;
+}
+
+.flag{
+	width:400px;
+	height: 400px;
+}
+.annount1{
+	float: right;
+	width: 70%;
+	background: skyblue;
+	height: 400px;
+	margin-top: -400px;
+	margin-left: 30px;
+}
+.text1{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+.pp{
+	font-family: arial;
+	font-size: 15px;
+	text-indent: 7px;
+	text-align: justify;
+	padding: 0 20px 0 60px;
+}
+#news1{
+	width:100%;
+	border: 1px solid grey;
+	height: 400px;
+}
+.seedstars{
+	margin-right: 10px;
+	width: 30%;
+	height: 400px;
+}
+.star{
+	width:400px;
+	height: 400px;
+}
+.seed{
+	float: right;
+	width: 70%;
+	background: skyblue;
+	height: 400px;
+	margin-top: -400px;
+}
+h2{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+.p1{
+	font-family: arial;
+	font-size: 15px;
+	text-indent: 7px;
+	text-align: justify;
+	padding: 0 20px 0 60px;
+}
+footer{
+	background: #e2e2e2;
+	width: 100%;
+	height: 150px; 
+	margin-top: -15px;
+}
+.mic img{
+	width: 10%;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.c{
+float: left;
+}
+.copy{
+	font-size: 15px;
+	padding-top: 60px;
+	
+	margin-left: -160px;
+}
+.tel1{
+	float: left;
+	width: 300px;
+	margin-top; -60px;
+	
+}
+.tel{
+	float: left;
+	display: blok;
+	list-style: none;
+}
+.phone{
+	width: 30px;
+	height: 30px;
+}
+.envelope{
+	width: 30px;
+	height: 30px;
+}
+li a{
+	line-height: 15px;
+	padding: 0;
+	margin-top; -60px;
+}
+.sotial{
+	float: left;
+	width: 500px;
+	margin-top; -100px;
+	
+}
+.mic-social li{
+	float: left;
+	display: inline-block;
+	list-style: none;
+	padding-left: 40px;
+	margin-top: 30px;
+}
+.f{
+	width: 50px;
+	height: 50px;
+}
+
+.t{
+	width: 50px;
+	height: 50px;
+}
+
+.y{
+    width: 50px;
+	height: 50px;	
+}
+/*@media only screen and(max-width: 768px){
+	.menu,.about{
+		display: inline-block;
+	}
+	bar,.about a{
+		display: none;
+		z-index: 1000;
+		width: 50%;
+		padding: 20px;
+		right: 20px;
+		top: 60px;
+		border: 1px solid #fff;
+		border-radius: 2px 0 2px 2px;
+		position: absolute:
+	}
+	.about a{
+		text-align: center;
+		width: 80%
+	}
+	.sotial{
+		width:50%;
+	}
+	.container1{
+		width: 50%;
+	
+	}
+	.container{
+		width: 30%;
+		height: 500px;
+	}
+	.annount{
+		width: 50%; 
+	}
+	.annount1{
+		width: 50%; 
+	}
+	.seedstars{
+		width: 50%; 
+	}
+	.seed{
+		width: 50%; 
+	}
+	h1{
+		font-size: 120%;
+	}
+	h2{
+		font-size: 100%;
+	}
+	p{
+		font-size: 100%;
+	}
+	headerr{
+		position: absolute;
+	}
+	.mic img{
+		margin: 15px 0 20px -25px;
+		width: 100%;
+	}
+}*/
